@@ -1,0 +1,690 @@
+/******************** RESETS AND BASE STYLING ****************************/
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font: normal 1em/1.4 'PT Sans Narrow', sans-serif;
+  color: #a9a9a9;
+}
+
+
+/***** REMOVES TOP MARGINS FROM ALL HEADERS
+AND SETS FONT-FAMILY FOR HEADERS************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption > strong,
+.locationBlock p > span,
+.aboutBlock3 p > span,
+.currentWork p > span,
+.currentWork p > a,
+.languageToolsBlock p > span {
+  font-family: 'Arvo', serif;
+}
+
+
+/******************** CLASS STYLING ****************************/
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.flex {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+/* .active class for styling current page link with background color, .mainNav to give higher specificity */
+
+.mainNav .active {
+  background: rgb(95, 207, 128);
+}
+
+
+/******************** SITE COLORS ****************************/
+
+
+/***SITE HEADER COLORS ***/
+
+#pageHeader {
+  background: linear-gradient(rgba(209, 63, 50, 0.45), rgba(29, 120, 114, .8)), /* bottom, image */
+  url(../img/coffee-book.jpg);
+}
+
+#pageHeader h1 {
+  color: #fff;
+  text-shadow: 0 2px 5px #000;
+}
+
+#pageHeader p {
+  color: aliceblue;
+}
+
+nav.mainNav li:hover {
+  background: rgb(95, 207, 128);
+  color: azure;
+}
+
+nav.mainNav li {
+  background: #f2efdc;
+}
+
+
+/***EDUCATION BLOCK COLORS ***/
+
+
+/***ABOUT BLOCK COLORS ***/
+
+.aboutBlock a {
+  color: #555555;
+}
+
+.aboutBlock2 {
+  background: #1a212c;
+  color: #fff;
+}
+
+.aboutBlock2 a {
+  color: #1CC4B9;
+}
+
+.aboutBlock3 {
+  background: url('../img/hiking.jpg') no-repeat center center;
+}
+
+.locationBlock {
+  background: url('../img/Shaconage.jpg') no-repeat center center;
+}
+
+
+/***ABOUT BLOCK COLORS ***/
+
+.languageToolsBlock p > span {
+  color: black;
+}
+
+
+/***LANGUAGES AND TOOLS COLORS ***/
+
+.languageToolsBlock {
+  background: #1E752A;
+}
+
+.languageTools h2 {
+  color: #fff;
+}
+
+.currentWork {
+  background: #c25975;
+}
+
+.currentWork p > span {
+  color: black;
+}
+
+.currentWork p > .treehouseText {
+  color: rgb(95, 207, 128);
+}
+
+
+/***FOOTER COLORS ***/
+
+footer {
+  background: #1a212c;
+}
+
+.footerAbout a,
+nav.navFooter a,
+#contactBlock ul li > a {
+  color: #1CC4B9;
+}
+
+.navFooter a:hover,
+.social-nav-footer svg:hover {
+  color: rgb(95, 207, 128);
+}
+
+#contactBlock h3,
+.footerAbout h3,
+nav.navFooter h3 {
+  color: #fff;
+}
+
+
+/******************** FONTS *******************************/
+
+#pageHeader h1 {
+  font-size: 1.8rem;
+}
+
+#pageHeader p {
+  font-size: 1.1rem;
+}
+
+.aboutBlock p {
+  font-size: 1em;
+}
+
+.locationBlock p > span,
+.aboutBlock3 p > span {
+  font-size: 1.3rem;
+}
+
+.aboutBlock2 p,
+.aboutBlock3 P {
+  font-size: 1.1em;
+}
+
+.locationBlock p {
+  font-size: 1.25rem;
+}
+
+.footerAbout p {
+  font-size: 1.1em;
+}
+
+.social-nav-footer a {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.copyWrite p {
+  font-size: .8em;
+}
+
+
+/******************** SITE HEADER *******************************/
+
+
+/***** FALLBACK IE9 ******/
+
+.no-cssgradients #pageHeader {
+  background: url('../img/coffee-book-ie9.jpg') no-repeat;
+  background-size: cover;
+}
+
+#pageHeader {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14% 0;
+}
+
+#pageHeader h1 {
+  margin-bottom: 0px;
+}
+
+#pageHeader p {
+  border-top: 2px solid #fff;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+nav.mainNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 0;
+  text-align: center;
+}
+
+nav.mainNav li {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 90%;
+}
+
+nav.mainNav li a {
+  display: block;
+  padding: 10px 30px;
+  color: #404040;
+}
+
+
+/******************** ABOUT BLOCK *******************************/
+
+.aboutBlock {
+  padding: 75px 0px;
+}
+
+.aboutBlock p {
+  margin: 10px auto;
+}
+
+img.profilePic {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 250px;
+}
+
+.locationBlock p > span,
+.aboutBlock3 p > span {
+  text-shadow: 0px 2px 4px dimgray;
+}
+
+.locationBlock,
+.aboutBlock3 {
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+/** PARAGRAPH TEXT STYLING FOR ABOUT BLOCKS **/
+
+.aboutBlock2 p,
+.aboutBlock3 P,
+.locationBlock p {
+  padding: 172px 0;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.locationBlock p {
+  text-shadow: 0px 2px 4px dimgray;
+}
+
+
+/******************** EDUCATION BLOCK *******************************/
+
+.no-flexboxlegacy .educationBlock figure {
+  height: 280px;
+}
+
+.educationBlock {
+  padding: 70px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.educationBlock figure {
+  max-width: 400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.educationBlock figure > img {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.educationBlock figure:last-child {
+  margin-top: 60px;
+}
+
+.educationBlock figure > figcaption {
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+/******************** LANGUAGES & TOOLS BLOCK *******************************/
+
+.languageToolsBlock,
+.currentWork {
+  width: 100%;
+}
+
+.languageToolsBlock {
+  padding: 20px 0;
+}
+
+.languageRow {
+  margin-bottom: 20px;
+}
+
+.languageTools {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.languageTools h2 {
+  padding-bottom: 20px;
+}
+
+.languageTools img {
+  width: 30%;
+  max-width: 120px;
+}
+
+.currentWork {
+  padding: 50px 10px;
+}
+
+.currentWork p {
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+
+/********************FOOTER *******************************/
+
+footer {
+  padding: 30px;
+  text-align: center;
+}
+
+.footerAbout {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.footerAbout,
+nav.navFooter {
+  width: 100%;
+}
+
+.footerAbout h3,
+nav.navFooter h3 {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+#contactBlock ul,
+nav.navFooter ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+#contactBlock li,
+nav.navFooter li {
+  margin-top: 10px;
+}
+
+#contactBlock a,
+nav.navFooter a {
+  display: block;
+}
+
+#contactBlock h3 {
+  margin-bottom: 2px
+}
+
+.socIcon {
+  width: 32px;
+}
+
+.social-nav-footer a:hover {
+  opacity: .7;
+}
+
+.social-nav-footer li {
+  display: inline-block;
+  margin: 0px 5px 0px;
+}
+
+.social-nav-footer a {
+  padding: 5px;
+}
+
+.social-nav-footer a:hover,
+.social-nav-footer a:active {
+  color: white;
+}
+
+
+/******************** CLEARFIX *******************************/
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+/********************MEDIA QUERIES DESKTOP *******************************/
+
+@media screen and (min-width: 960px) {
+  #pageHeader ul {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #pageHeader li {
+    width: 15%;
+  }
+  /***** FALLBACK IE9 ******/
+  .no-flexbox #pageHeader {
+    background-color: teal;
+    background: url('../img/coffee-book-ie9.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+  }
+  .no-flexbox nav.mainNav {
+    text-align: center;
+  }
+  .no-flexbox nav.mainNav ul {
+    width: 100%;
+  }
+  .no-flexbox nav.mainNav ul,
+  .no-flexbox nav.mainNav li {
+    display: inline-block;
+  }
+  .no-flexbox nav.mainNav li {
+    margin: 0 8px;
+    /*   background: teal;*/
+  }
+  .no-flexbox nav.mainNav li a {
+    display: block;
+    padding: 10px 20px;
+    /*    background: red;*/
+  }
+  /***** FALLBACK ENDED IE9 ******/
+  /***************** ABOUT BLOCK DESKTOP *********************/
+  /********** FALLBACKS FOR IE9 ************/
+  .no-flexbox .aboutBlock3,
+  .no-flexbox .locationBlock,
+  .no-flexbox .aboutBlock2 {
+    display: inline-block;
+    height: 400px;
+    width: 33.33333%;
+  }
+  .no-flexbox .aboutBlock3 {
+    float: right;
+    clear: right;
+    clear: right;
+  }
+  .no-flexbox .aboutBlock2,
+  .no-flexbox .locationBlock {
+    float: left;
+  }
+  /********** FALLBACKS ENDED IE9 ************/
+  .profileBlock {
+    display: -webkit-box;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .aboutBlock {
+    width: 100%;
+  }
+  .locationBlock p > span {
+    font-size: 1.5rem;
+  }
+  .locationBlock,
+  .aboutBlock2 {
+    padding: 0 20px;
+    width: 33%;
+  }
+  .aboutBlock2 p {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  .aboutBlock3 {
+    width: 33%;
+  }
+  /***************** EDU. BLOCK DESKTOP*********************/
+  /********** FALLBACKS FOR IE9 ************/
+  .no-flexbox .educationBlock {}
+  .no-flexbox .educationBlock > figure {
+    display: inline-block;
+    width: 50%;
+  }
+  .no-flexbox .educationBlock {
+    margin: auto;
+    text-align: center;
+  }
+  .no-flexbox .educationBlock figure:nth-child(2) {
+    float: left;
+  }
+  .no-flexbox .educationBlock figure:nth-child(3) {
+    float: right;
+    clear: right;
+  }
+  /********** FALLBACKS ENDED IE9 ************/
+  /********** FALLBACKS FOR IE9 ************/
+  .no-flexbox .languageToolsBlock,
+  .no-flexbox .currentWork {
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+  }
+  .no-flexbox .languageToolsBlock {
+    float: left;
+    padding: 20px;
+  }
+  .no-flexbox .currentWork {
+    float: right;
+  }
+  /********** FALLBACKS ENDED IE9 ************/
+  .educationBlock {
+    width: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .educationBlock figure:last-child {
+    margin-top: 0px;
+  }
+  .educationBlock figure:nth-child(2) figcaption {
+    margin-top: 14px
+  }
+  .languageTools {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .languageToolsBlock,
+  .currentWork {
+    width: 50%;
+    margin: initial;
+  }
+  /***************** FOOTER BLOCK DESKTOP*********************/
+  #contactBlock,
+  .footerAbout {
+    width: 33.3333%;
+    float: left;
+  }
+  nav.navFooter {
+    float: right;
+    width: 33.3333%;
+  }
+  .copyWrite {
+    clear: both;
+    width: 100%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {}
+
+
+/***************** W3CX.ORG PROJECTS PAGE *********************/
+
+#myCanvas {
+  border: 2px solid lightgreen;
+}
+
+#parentDiv {
+  margin: 30px auto;
+}
