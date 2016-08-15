@@ -1,277 +1,296 @@
 <!Doctype html>
 <html>
-  <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" href="css/portfolio.min.css" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:100,400,300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
-<script src="https://use.fontawesome.com/6370d89e06.js"></script>
-  </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+
+
+    <link rel="stylesheet" href="js/animsition/animsition.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/portfolio.min.css" type="text/css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/6370d89e06.js"></script>
+</head>
 
 <body>
-  <main id="mainPage" class="container-fluid">
-    <!--- PORTFOLIO WEB PAGE BY NICHOLAS D'AMICO --->
-    <!-- NavBar HEADER -->
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header text-white">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <!-- ID'S USED TO OVERRIDE BACKGROUND-COLOR STYLES -->
-            <span id="bg-green" class="icon-bar"></span>
-            <span id="bg-green" class="icon-bar"></span>
-            <span id="bg-green" class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://nicholasdamico.net" target="_top">
-            <img class="nd-logo" src="http://res.cloudinary.com/nic-alan/image/upload/v1465490237/ND-logo.svg" />
-          </a>
-          <p id="text-white" class="navbar-text hidden-xs">Nicholas D'Amico | Developer</p>
-        </div>
+    <!-- animsition plugin container div -->
+    <div class="animsition">
+        <main id="mainPage" class="container-fluid">
+            <!--- PORTFOLIO WEB PAGE BY NICHOLAS D'AMICO --->
+            <!-- NavBar HEADER -->
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header text-white">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <!-- ID'S USED TO OVERRIDE BACKGROUND-COLOR STYLES -->
+                            <span id="bg-green" class="icon-bar"></span>
+                            <span id="bg-green" class="icon-bar"></span>
+                            <span id="bg-green" class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="home.html" target="_top">
+                            <img class="nd-logo" src="http://res.cloudinary.com/nic-alan/image/upload/v1465490237/ND-logo.svg" />
+                        </a>
+                        <p id="text-white" class="navbar-text hidden-xs">Nicholas D'Amico | Developer</p>
+                    </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#aboutBlock">About</a></li>
-            <li><a href="#portfolioBlock">Projects</a></li>
-            <li><a href="#contactBlock">Contact</a></li>
-            <li><a href="http://nicholasdamico.net" target="_self">Home</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-    </nav>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#aboutBlock">About</a></li>
+                            <li><a href="#portfolioBlock">Projects</a></li>
+                            <li><a href="#contactBlock">Contact</a></li>
+                            <li><a href="home.html" target="_self">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
 
-    <!-- START OF <MAIN> PAGE CONTENT -->
+            <!-- START OF <MAIN> PAGE CONTENT -->
 
-    <!-- PAGE BANNER Currently disabled from the design-->
-    <!-- <div class="container-fluid">
+            <!-- PAGE BANNER Currently disabled from the design-->
+            <!-- <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 banner-container">
           <h4 class="banner-text">Responsive Web Developer</h4>
         </div>
     </div>
 </div> -->
-    <!-- END OF PAGE BANNER -->
+            <!-- END OF PAGE BANNER -->
 
 
-    <!-- ABOUT BLOCK -->
-    <section class="container-fluid about-block ">
-      <div class="row">
-        <div id="aboutBlock" class="col-sm-12">
-          <p class="text-white">Hi! Thanks for Stopping by.
-            <p>
+            <!-- ABOUT BLOCK -->
+            <section class="container-fluid about-block ">
+                <div class="row">
+                    <div id="aboutBlock" class="col-sm-12">
+                        <p class="text-white">Hi! Thanks for Stopping by.
+                            <p>
 
-              <h2 class="text-green-shadow"> My Name is Nick D'Amico<br /> I'm a Front End and FullStack JavaScript Student.</h2>
+                                <h2 class="text-green-shadow"> My Name is Nick D'Amico<br /> I'm a Front End and FullStack JavaScript Student.</h2>
 
-              <p class="text-black">Below is some more information about me and some of the projects that i've been working on, have a look around.
-              </p>
-        </div>
-      </div>
+                                <p class="text-black">Below is some more information about me and some of the projects that i've been working on, have a look around.
+                                </p>
+                    </div>
+                </div>
 
-      <div class="row" name="about">
-        <div class="container about-block-inner text-white">
+                <div class="row" name="about">
+                    <div class="container about-block-inner text-white">
 
-          <div class="col-xs-12 col-sm-4 text-left">
-            <img class="img-responsive center-block gsmnp-img" alt="smoky mountains art clip" src="http://res.cloudinary.com/nic-alan/image/upload/v1466106358/gsmnp-img_vfkucz.svg" />
-            <h3 class="text-center text-green">Gatlinburg, TN</h3>
-            <p class="text-left text-black">Currently, I live at the foothills of the Great Smoky Mountains National Park. It's a beautiful place to live, I enjoy getting outside as much as I can to hike and enjoy nature.
-            </p>
-          </div>
+                        <div class="col-xs-12 col-sm-4 text-left">
+                            <img class="img-responsive center-block gsmnp-img" alt="smoky mountains art clip" src="http://res.cloudinary.com/nic-alan/image/upload/v1466106358/gsmnp-img_vfkucz.svg" />
+                            <h3 class="text-center text-green">Gatlinburg, TN</h3>
+                            <p class="text-left text-black">I live at the foothills of the Great Smoky Mountains National Park. It's a beautiful place to live, I enjoy getting outside as much as I can to hike and enjoy nature.
+                            </p>
+                        </div>
 
-          <div class="col-xs-12 col-sm-4">
-            <img class="img-responsive center-block edu-img" alt="certificate with blue ribbin art" src="http://res.cloudinary.com/nic-alan/image/upload/v1466108536/cert-img.svg" />
-            <h3 class="text-center text-green">Techdegree Cert.</h3>
-            <p class="text-left text-black">I'm enrolled and working towards the Treehouse Techdegree for FullStack JavaScript Developer and FreeCodeCamp's Front-End Developer Certification.
-            </p>
-          </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <img class="img-responsive center-block edu-img" alt="certificate with blue ribbin art" src="http://res.cloudinary.com/nic-alan/image/upload/v1466108536/cert-img.svg" />
+                            <h3 class="text-center text-green">Techdegree Cert.</h3>
+                            <p class="text-left text-black">I'm enrolled and working towards the Treehouse Techdegree for FullStack JavaScript Developer and FreeCodeCamp's Front-End Developer Certification.
+                            </p>
+                        </div>
 
-          <div class="col-xs-12 col-sm-4">
-            <img class="center-block img-responsive future-img" alt="rocket ship art" src="http://res.cloudinary.com/nic-alan/image/upload/v1466110428/future-img.svg" />
-            <h3 class="text-center text-green">Future Plans</h3>
-            <p class="text-left text-black">What does the future hold... Finish both the Techdegree and Certification for development by spring 2017, become job ready and then land my dream job.</p>
-          </div>
-          <!-- End of Future Plans Block -->
-        </div>
-        <!-- End of row-->
-        <div class="desk-art row">
-          <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-            <img class="img-responsive center-block" src="http://res.cloudinary.com/nic-alan/image/upload/v1466629812/cpu-graphic-v2_bl0inf.svg" />
-          </div>
-        </div>
-      </div>
-      <!-- End of container -->
-    </section>
+                        <div class="col-xs-12 col-sm-4">
+                            <img class="center-block img-responsive future-img" alt="rocket ship art" src="http://res.cloudinary.com/nic-alan/image/upload/v1466110428/future-img.svg" />
+                            <h3 class="text-center text-green">Future Plans</h3>
+                            <p class="text-left text-black">What does the future hold... Finish both the Techdegree and FreeCodeCamp Certifications by spring 2017, become job ready and then land my dream job.</p>
+                        </div>
+                        <!-- End of Future Plans Block -->
+                    </div>
+                    <!-- End of row-->
+                    <div class="desk-art row">
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                            <img class="img-responsive center-block" src="http://res.cloudinary.com/nic-alan/image/upload/v1466629812/cpu-graphic-v2_bl0inf.svg" />
+                        </div>
+                    </div>
+                </div>
+                <!-- End of container -->
+            </section>
 
 
-    <!-- FEATURED WORK PORTFOLIO PROJECT BLOCK -->
-    <section class="featured-work container-fluid">
-      <div class="container">
-        <div class="row">
-          <div id="portfolioBlock" class="col-md-12">
-            <h2>Featured Work</h2>
-          </div>
-        </div>
+            <!-- FEATURED WORK PORTFOLIO PROJECT BLOCK -->
+            <section class="featured-work container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div id="portfolioBlock" class="col-md-12">
+                            <h2>Featured Work</h2>
+                        </div>
+                    </div>
 
-        <!-- PORTFOLIO PROJECTS -->
-        <div class="row text-center">
-          <article class="col-xs-12 col-sm-4 col-md-4 featured-items">
-            <img class="img-responsive center-block" alt="dealershipappraisals.com thumbnail" src="http://res.cloudinary.com/nic-alan/image/upload/v1465957068/Dealership_Appraisals_and_Auctions_xbrrs5.png" alt="dealership appraisals website">
-            <h3 class="text-uppercase">Dealership Appraisals</h3>
-            <p><a href="http://www.dealershipappraisals.com">http://dealershipappraisals.com</a></p>
-          </article>
+                    <!-- PORTFOLIO PROJECTS -->
+                    <div class="row text-center">
+                        <article class="col-xs-12 col-sm-4 col-md-4 featured-items">
+                            <img class="img-responsive center-block" alt="dealershipappraisals.com thumbnail" src="http://res.cloudinary.com/nic-alan/image/upload/v1465957068/Dealership_Appraisals_and_Auctions_xbrrs5.png" alt="dealership appraisals website">
+                            <h3 class="text-uppercase">Dealership Appraisals</h3>
+                            <p><a href="http://www.dealershipappraisals.com">http://dealershipappraisals.com</a></p>
+                        </article>
 
-          <article class="col-xs-12 col-sm-4 col-md-4 featured-items">
-            <img class="img-responsive center-block" alt="Free Code Camp tribute project thumbnail" src="http://res.cloudinary.com/nic-alan/image/upload/c_fill,h_258,w_555/v1465957317/CodePen_FreeCodeCamp_Build_Tribute_Page_Project_gi8hou.png">
-            <h3 class="text-uppercase">Tribute Project</h3>
-            <p><a href="http://codepen.io/NickAlan/full/MewBPz/">http://codepen.io/NickAlan/Tribute</a></p>
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#tributeModal">More info</button>
-          </article>
+                        <article class="col-xs-12 col-sm-4 col-md-4 featured-items">
+                            <img class="img-responsive center-block" alt="Free Code Camp tribute project thumbnail" src="http://res.cloudinary.com/nic-alan/image/upload/c_fill,h_258,w_555/v1465957317/CodePen_FreeCodeCamp_Build_Tribute_Page_Project_gi8hou.png">
+                            <h3 class="text-uppercase">Tribute Project</h3>
+                            <p><a href="http://codepen.io/NickAlan/full/MewBPz/">http://codepen.io/NickAlan/Tribute</a></p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#tributeModal">More info</button>
+                        </article>
 
-          <article class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive center-block" src="http://placehold.it/555x258">
-            <h3 class="text-uppercase">Quote Machine</h3>
-            <p>Coming soon...</p>
+                        <article class="col-xs-12 col-sm-4 col-md-4">
+                            <img class="img-responsive center-block" src="http://placehold.it/555x258">
+                            <h3 class="text-uppercase">Quote Machine</h3>
+                            <p>Coming soon...</p>
 
-          </article>
-        </div>
-      </div>
-    </section>
-    <!-- END OF FEATURED WORK PORTFOLIO PROJECT BLOCK -->
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- END OF FEATURED WORK PORTFOLIO PROJECT BLOCK -->
 
-    <!-- M0DALS FOR PORTFOLIO BLOCK PROJECTS -->
+            <!-- M0DALS FOR PORTFOLIO BLOCK PROJECTS -->
 
-    <!-- Modal -->
-    <div id="tributeModal" class="modal fade" role="dialog">
-      <div class="modal-dialog">
+            <!-- Modal -->
+            <div id="tributeModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
 
-        <!-- Modal content-->
-        <div class="modal-content customModal">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">FreeCodeCamp: Muhammed Ali Tribute</h4>
-          </div>
-          <div class="modal-body">
-            <p>The Tribute Project is the first project that is part of the basic front end development path at <a href="https://freecodecamp.com">FreeCodeCamp.com</a>. The subject of the <strong>Tribute page</strong> was left up to the student to choose. The following criteria for completing the project was:</p>
-            <ul>
-              <li>Rule #1: Give your own personal style</li>
-              <li>Rule #2: Tribute page has an image and text.</li>
-              <li>Rule #3: Include a link that will take me to an external website with further information on the topic, subject.</li>
-            </ul>
-            <p>I chose to spolight the life of Muhammad Ali. I used Twitter's Boostrap 3 for the framework and started with a mobile first approach and then adjusted elements with <strong>media queries</strong> for larger displays. I kept the design simple with a jumbotron image banner and overlaid with a title, subtitle and quote. The jumbotron text was adjusted with different font-size properties and colors for effects as well as readability. The image was styled using custom CSS gradients.</p>
-            <p>The main body of text was left as an ordered list. The timeline dates were styled as buttons and line separtion adjusted to help with readability. Finishing off the timeline, I added another quote and finally a link to Muhammad Ali's Wikipedia page.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-          </div>
-        </div>
+                    <!-- Modal content-->
+                    <div class="modal-content customModal">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">FreeCodeCamp: Muhammed Ali Tribute</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>The Tribute Project is the first project that is part of the basic front end development path at <a href="https://freecodecamp.com">FreeCodeCamp.com</a>. The subject of the <strong>Tribute page</strong> was left up to the student
+                                to choose. The following criteria for completing the project was:</p>
+                            <ul>
+                                <li>Rule #1: Give your own personal style</li>
+                                <li>Rule #2: Tribute page has an image and text.</li>
+                                <li>Rule #3: Include a link that will take me to an external website with further information on the topic, subject.</li>
+                            </ul>
+                            <p>I chose to spolight the life of Muhammad Ali. I used Twitter's Boostrap 3 for the framework and started with a mobile first approach and then adjusted elements with <strong>media queries</strong> for larger displays. I kept
+                                the design simple with a jumbotron image banner and overlaid with a title, subtitle and quote. The jumbotron text was adjusted with different font-size properties and colors for effects as well as readability. The image
+                                was styled using custom CSS gradients.</p>
+                            <p>The main body of text was left as an ordered list. The timeline dates were styled as buttons and line separtion adjusted to help with readability. Finishing off the timeline, I added another quote and finally a link to Muhammad
+                                Ali's Wikipedia page.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
 
-      </div>
+                </div>
+            </div>
+
+            <!-- END OF MODALS FOR PORTFOLIO PROJECTS -->
+
+            <!-- EDUCATION BLOCK -->
+            <section class="edu-block container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 treehouse-block">
+                        <img class="img-responsive center-block edu-th-logo" alt="Team Treehouse.com logo" src="http://res.cloudinary.com/nic-alan/image/upload/c_scale,h_110/v1465490210/treehouse-logo_g6ulzd.png">
+                        <h4 class="text-green text-center">Treehouse Techdegree</h4>
+                        <h3 class="text-white text-center">Full Stack JavaScript Developer</h3>
+                        <p class="text-center text-black">Full Stack JavaScript Techdegree
+                            <br /> starting early July 2016</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 fcc-block">
+                        <img class="img-responsive center-block fcc-logo" alt="Free Code Camp Logo" src="http://res.cloudinary.com/nic-alan/image/upload/v1465955335/FCClogo.png">
+                        <h4 class="text-center text-black">FreeCodeCamp.com</h4>
+                        <h3 class="text-center text-white">Full Stack Web Developer</h3>
+                        <p class="text-center text-black">Front End Developer Certification
+                            <br /> started June, 2016</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- START OF PAGE FOOTER -->
+        <footer class="main-footer container-fluid">
+            <h2 class="visually-hidden">Site Footer</h2>
+            <div class="row">
+                <!-- ABOUT FOOTER BLOCK -->
+                <div class="footerAbout col-sm-12 col-md-4">
+                    <h3 translate="no">Nicholas D'Amico</h3>
+                    <p> I'm a Front-End web development student that currently works as a snowmaker and ski lift mechanic. I spend time furthering my education in development at <a href="https://teamtreehouse.com">teamtreehouse</a> &amp; <a href="https://www.freecodecamp.com">FreeCodeCamp</a>.
+                        Hopefully with hard work, I will be able to get my dream job in the near future.</p>
+                </div>
+
+                <!-- START OF NAV FTR BLOCK -->
+                <nav class="nav-footer col-sm-12 col-md-4">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#aboutBlock">About</a></li>
+                        <li><a href="#portfolioBlock">Projects</a></li>
+                        <li><a href="#contactBlock">Contact</a></li>
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- START OF CONTACT-SOCIAL FOOTER BLOCK -->
+                <div id="contactBlock" class="col-sm-12 col-md-4" name="contact">
+                    <h3>Get in Touch.</h3>
+                    <ul class="social-nav-footer">
+                        <li>
+                            <a href="mailto:nickalan82@icloud.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/Nick-Damico" target="_top"><i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                        </li>
+
+                        <li>
+                            <a href="http://codepen.io/NickAlan/pens/public/" target="_top"><i class="fa fa-codepen" aria-hidden="true"></i>
+                </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/nicholas-d-amico-5aa1b6122?trk=hp-identity-name" target="_top"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                        </li>
+
+                        <li>
+                            <a href="https://twitter.com/NickAlan82" target="_top"><i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.facebook.com/nick.damico.735" target="_top"><i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- COPYWRITE BLOCK -->
+                <div class="copywrite col-sm-12">
+                    <p>&copy;2015.<span translate="no">nicholasdamico.net</span></p>
+                </div>
+
+            </div>
+        </footer>
+        <!-- animsition plugin closing div tag. -->
     </div>
 
-    <!-- END OF MODALS FOR PORTFOLIO PROJECTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/animsition/animsition.min.js"></script>
+    <!-- <script src="js/app.js"></script> -->
+    <script src="js/main.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <!-- EDUCATION BLOCK -->
-    <section class="edu-block container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 treehouse-block">
-          <img class="img-responsive center-block edu-th-logo" alt="Team Treehouse.com logo" src="http://res.cloudinary.com/nic-alan/image/upload/c_scale,h_110/v1465490210/treehouse-logo_g6ulzd.png">
-          <h4 class="text-green text-center">Treehouse Techdegree</h4>
-          <h3 class="text-white text-center">Full Stack JavaScript Developer</h3>
-          <p class="text-center text-black">Full Stack JavaScript Techdegree
-            <br /> starting early July 2016</p>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 fcc-block">
-          <img class="img-responsive center-block fcc-logo" alt="Free Code Camp Logo" src="http://res.cloudinary.com/nic-alan/image/upload/v1465955335/FCClogo.png">
-          <h4 class="text-center text-black">FreeCodeCamp.com</h4>
-          <h3 class="text-center text-white">Full Stack Web Developer</h3>
-          <p class="text-center text-black">Front End Developer Certification
-            <br /> started June, 2016</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-
-  <!-- START OF PAGE FOOTER -->
-  <footer class="main-footer container-fluid">
-    <h2 class="visually-hidden">Site Footer</h2>
-    <div class="row">
-      <!-- ABOUT FOOTER BLOCK -->
-      <div class="footerAbout col-sm-12 col-md-4">
-        <h3 translate="no">Nicholas D'Amico</h3>
-        <p> I'm a Front-End web development student that currently works as a snowmaker and ski lift mechanic. I spend time furthering my education in development at <a href="https://teamtreehouse.com">teamtreehouse.com</a> &amp; <a href="https://www.freecodecamp.com">FreeCodeCamp.com</a>. Hopefully with hard work, I will be able to get my dream job in the near future.</p>
-      </div>
-
-      <!-- START OF NAV FTR BLOCK -->
-      <nav class="nav-footer col-sm-12 col-md-4">
-        <h3>Navigation</h3>
-        <ul>
-          <li><a href="#aboutBlock">About</a></li>
-          <li><a href="#portfolioBlock">Projects</a></li>
-          <li><a href="#contactBlock">Contact</a></li>
-          <li>
-            <a href="http://nicholasdamico.net">Home</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- START OF CONTACT-SOCIAL FOOTER BLOCK -->
-      <div id="contactBlock" class="col-sm-12 col-md-4" name="contact">
-        <h3>Get in Touch.</h3>
-        <ul class="social-nav-footer">
-          <li>
-            <a href="mailto:nickalan82@icloud.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-                </a>
-          </li>
-
-          <li>
-            <a href="https://github.com/Nick-Damico" target="_top"><i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-          </li>
-
-          <li>
-            <a href="http://codepen.io/NickAlan/pens/public/" target="_top"><i class="fa fa-codepen" aria-hidden="true"></i>
-                </a>
-          </li>
-
-          <li>
-            <a href="https://www.linkedin.com/in/nicholas-d-amico-5aa1b6122?trk=hp-identity-name" target="_top"><i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-          </li>
-
-          <li>
-            <a href="https://twitter.com/NickAlan82" target="_top"><i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-          </li>
-
-          <li>
-            <a href="https://www.facebook.com/nick.damico.735" target="_top"><i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- COPYWRITE BLOCK -->
-      <div class="copywrite col-sm-12">
-        <p>&copy;2015.<span translate="no">nicholasdamico.net</span></p>
-      </div>
-
-    </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="scripts/app.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- <script src="js/app.js"></script> -->
 </body>
 
 </html>
